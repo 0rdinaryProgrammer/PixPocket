@@ -254,7 +254,7 @@ class HomePageActivity : Activity() {
                 }, 1000)
             }
             .addOnFailureListener {
-                Toast.makeText(this, "Upload failed", Toast.LENGTH_SHORT).show()
+                //Toast.makeText(this, "Upload failed", Toast.LENGTH_SHORT).show()
             }
     }
 
